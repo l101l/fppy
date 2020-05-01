@@ -8,4 +8,4 @@ def gen5(stringLength=5):
 print("First 6 Character of voucher:")
 vou = raw_input()
 
-print(vou, gen5(5))
+print(vou + gen5(5))
